@@ -43,7 +43,9 @@ text mode as graphical mode. There are only two serious contenders:
 [Vim]: http://www.vim.org/
 
 There are further reasons to prefer a keyboard-based interface, but at
-a minimum we need an editor that can be used in one.
+a minimum we need an editor that can be used over [ssh][].
+
+[ssh]: http://en.wikipedia.org/wiki/Secure_Shell
 
 
     got bash
