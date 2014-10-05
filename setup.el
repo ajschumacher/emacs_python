@@ -10,3 +10,5 @@
 ; Check the right zoom level for the graphical interface, to avoid
 ; fiddling around too much when switching from console emacs to
 ; graphical emacs launched from a shell in emacs.
+
+(display-startup-screen)
