@@ -116,9 +116,18 @@ faster to start up the Emacs client.
     e
     M-x shell
     got emacs
-    eg &
 
 ![](screenshots/emacs_shell.png)
+
+You can also run a shell inside Emacs, and it works much the same as
+outside. A contrast with `tmux` is that you don't have to switch modes
+to access the scrollback. For example, in an Emacs shell, `M-r` will
+search the command history. `C-r` will search back through the buffer,
+as it does throughout Emacs.
+
+
+    eg &
+
 
 Base Emacs includes a lot, and you can manage in base Emacs. you
 probably won't want to use stock Emacs. It's best to think of Emacs
