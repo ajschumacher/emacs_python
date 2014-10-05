@@ -24,7 +24,37 @@ forward to getting your feedback and advice for improving.
 
 ![](screenshots/emacs_daemon.png)
 
+![](screenshots/clone_django.png)
 
+To work on the project, we'll clone my fork of the repo and open up the `README.rst`. It opens up in `reStructuredText` mode.
+
+![](screenshots/whitespace_problems.png)
+
+Before we get to the numbered lists, we notice some whitespace problems: tabs and trailing whitespace.
+
+![](screenshots/make_branch.png)
+
+So we make a branch to do some work on. Then we can `mark-whole-buffer` and `untabify`. Tabs are changed to spaces. Then `delete-trailing-whitespace`. Good.
+
+![](screenshots/whitespace_fixed.png)
+
+We can make a quick commit with this change very quickly.
+
+![](screenshots/markdown_in_rst.png)
+
+Down at the bottom, it looks like [markdown](http://daringfireball.net/projects/markdown/) in [reStructuredText](http://docutils.sourceforge.net/rst.html). We need to fix the back-ticks and the numbered lists.
+
+In reStructuredText, you need double back-ticks. Select the region, query-replace with `M-%`, enter "`" and "``", and if feeling confident, use "!" to replace all.
+
+![](screenshots/backticks_fixed.png)
+
+Oops, one command isn't back-ticked that should be. Nice chance to show `expand-region` and `wrap-region`. All good - commit.
+
+The numbered lists aren't hard to fix in this case, but let's show some more features. We'll make a macro, starting it with `C-x (`. Then `C-s` for `1` to go to the start of a numbering region. `C-a` for the start of the line. Set mark with `C-<space>`. Do a regular expression search for a blank line ("^$") with `M-C-s`. Previous line with `C-p`. Number the lines with a rectangle command, `C-x r N`. Next line to clear the numbering, and finish the macro with `C-x )`. Then we can run it again with `C-x e`, and again with just `e`.
+
+This isn't really done, so let's go back to the first "1." and select it, then invoke a `multiple-cursors` command to select them all and clean up. Presto!
+
+Commit, push, pull request, new branch (from master) for a `first_test`.
 
 All my configuration is in my [.emacs.d](https://github.com/ajschumacher/.emacs.d).
 
