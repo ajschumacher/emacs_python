@@ -87,7 +87,7 @@ keybindings, or should, and they can be used in many places.
 
     fg
 
-![](new image)
+![](screenshots/emacs_email.png)
 
 If you want, the many places you use Emacs can be all inside Emacs.
 Here I'm just finishing an email.
