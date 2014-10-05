@@ -127,6 +127,7 @@ as it does throughout Emacs.
 
 
     eg &
+    C-x b shell
     got emacs
 
 ![](screenshots/emacs_shell_gui.png)
@@ -135,22 +136,28 @@ I can start a graphical Emacs from here in the shell inside console
 Emacs, and you can see that now both clients are connected to the same
 Emacs daemon.
 
-Notice how similar the experience is whether at the console or in the
+Notice how similar the interface is whether at the console or in the
 GUI window.
 
 
     C-x C-f hello.el
     C-M-f
+    C-x C-e
 
-Base Emacs includes a lot, and you can manage in base Emacs. you
-probably won't want to use stock Emacs. It's best to think of Emacs
-more as a kit for making an editor.
+![](screenshots/emacs_lisp.png)
 
-I've been using Emacs for around 20 years, so I'm still a newbie.
-That's partially a joke, but it's also true that I've only started to
-get into using Emacs well in the past several months. There are
-probably several people here who are better with Emacs than me. I look
-forward to getting your feedback and advice for improving.
+Emacs achieves its extensibility by essentially being a [Lisp][]
+interpreter. (It's Emacs Lisp.) I'm just showing a tiny cosmetic
+interface tweak here, but all the packages and fun features I use work
+because Emacs *is* a programmable environment.
+
+[Lisp]: http://en.wikipedia.org/wiki/Emacs_Lisp
+
+A related point is that base Emacs includes a lot, and you can manage
+in base Emacs, but you probably won't want to use stock Emacs. You can
+think of Emacs as a kit for making an editor. The advantage is that
+you can make any sort of editor you want.
+
 
 
 ![](screenshots/clone_django.png)
