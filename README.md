@@ -158,6 +158,11 @@ in base Emacs, but you probably won't want to use stock Emacs. You can
 think of Emacs as a kit for making an editor. The advantage is that
 you can make any sort of editor you want.
 
+Let's take a look at editing with Emacs, using [a DC Python project][]
+as an example. We notice that there are some problems at the end of
+the README, so maybe we can fix it up a little.
+
+[a DC Python project]: https://github.com/DCPython/dcpython-django/blob/77af0754866780b2eb013f7fb08c13918bd5266c/README.rst
 
 
 ![](screenshots/clone_django.png)
@@ -165,10 +170,12 @@ you can make any sort of editor you want.
 To work on the project, we'll clone my fork of the repo and open up
 the `README.rst`. It opens up in `reStructuredText` mode.
 
+
 ![](screenshots/whitespace_problems.png)
 
 Before we get to the numbered lists, we notice some whitespace
 problems: tabs and trailing whitespace.
+
 
 ![](screenshots/make_branch.png)
 
@@ -176,9 +183,11 @@ So we make a branch to do some work on. Then we can
 `mark-whole-buffer` and `untabify`. Tabs are changed to spaces. Then
 `delete-trailing-whitespace`. Good.
 
+
 ![](screenshots/whitespace_fixed.png)
 
 We can make a quick commit with this change very quickly.
+
 
 ![](screenshots/markdown_in_rst.png)
 
@@ -192,6 +201,7 @@ lists.
 In reStructuredText, you need double back-ticks. Select the region,
 query-replace with `M-%`, enter "\`" and "\`\`", and if feeling
 confident, use "!" to replace all.
+
 
 ![](screenshots/backticks_fixed.png)
 
@@ -211,9 +221,11 @@ This isn't really done, so let's go back to the first "1." and select
 it, then invoke a `multiple-cursors` command to select them all and
 clean up. Presto!
 
+
 ![](screenshots/nice_rst.png)
 
 Commit, push, pull request, new branch (from master) for a `first_test`.
+
 
 All my configuration is in my [.emacs.d][].
 
