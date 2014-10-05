@@ -5,7 +5,17 @@
 
 ; Eddie Welker <eddie.welker@gmail.com>
 ; thanks!
-; Something something something
+; Hi Eddie!
+;
+; Thanks for having me present at DC Python! It's always a great event,
+; and a great audience - thanks for organizing it. I just hope I don't
+; mess up too much, trying to do everything live!
+;
+; I've got all the materials from the talk online already, and I'll tweet
+; out a link at the end of the presentation.
+;
+; Thanks again! Best,
+
 
 ; Check the right zoom level for the graphical interface, to avoid
 ; fiddling around too much when switching from console emacs to
