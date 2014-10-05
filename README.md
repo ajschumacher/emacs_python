@@ -55,7 +55,7 @@ a minimum we need an editor that can be used over [ssh][].
 ![](screenshots/bash_intro.png)
 
 I use [bash][], and I have it customized a little bit, which makes it
-more useful. I'll come back to this.
+more useful. I'll come back to customization.
 
 [bash]: http://www.gnu.org/software/bash/
 
@@ -94,8 +94,8 @@ keybindings, or should, and they can be used in many places.
 If you want, the many places you use Emacs can be all inside Emacs.
 Here I'm just finishing an email.
 
-Probably the biggest attraction of Emacs is its customizability. Part
-of that is in selecting which parts you use.
+Probably the biggest attraction of Emacs is its customizability, or
+extensibility. Part of that is in selecting which parts you use.
 
 
     C-c C-c
