@@ -84,6 +84,24 @@ Keyboard shortcuts that work in `bash`, Emacs, and many other places:
 Emacs does require effort to learn, but you already know a lot of its
 keybindings, or should, and they can be used in many places.
 
+
+    fg
+
+![](new image)
+
+If you want, the many places you use Emacs can be all inside Emacs.
+Here I'm just finishing an email.
+
+
+    C-c C-c
+    C-z
+    got emacs
+    eg &
+
+![](new image)
+
+
+
 Base Emacs includes a lot, and you can manage in base Emacs. you
 probably won't want to use stock Emacs. It's best to think of Emacs
 more as a kit for making an editor.
