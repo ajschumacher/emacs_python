@@ -92,15 +92,31 @@ keybindings, or should, and they can be used in many places.
 If you want, the many places you use Emacs can be all inside Emacs.
 Here I'm just finishing an email.
 
+Probably the biggest attraction of Emacs is its customizability. Part
+of that is in selecting which parts you use.
+
 
     C-c C-c
-    C-z
+    C-x C-c
+    got emacs
+
+![](screenshots/emacs_daemon.png)
+
+Emacs can run client-server. I use this way of running Emacs to get a
+lot of the same benefits that you get with [screen][] or [tmux][]. I
+don't lose anything if a network connection dies, and it's also just
+faster to start up the Emacs client.
+
+[screen]: http://www.gnu.org/software/screen/
+[tmux]: http://tmux.sourceforge.net/
+
+
+    e
+    M-x shell
     got emacs
     eg &
 
-![](new image)
-
-
+![](screenshots/emacs_shell.png)
 
 Base Emacs includes a lot, and you can manage in base Emacs. you
 probably won't want to use stock Emacs. It's best to think of Emacs
@@ -112,8 +128,6 @@ get into using Emacs well in the past several months. There are
 probably several people here who are better with Emacs than me. I look
 forward to getting your feedback and advice for improving.
 
-
-![](screenshots/emacs_daemon.png)
 
 ![](screenshots/clone_django.png)
 
