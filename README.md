@@ -1,6 +1,6 @@
 # Emacs and Python
 
-![emacs startup screen](screenshots/emacs_startup_screen.png)
+![](screenshots/emacs_startup_screen.png)
 
 I've been having a pretty good time with [Emacs][], and I'd like to
 tell you about it. Python is one of the things that Emacs is good for,
@@ -15,14 +15,15 @@ get into using Emacs well in the past several months. There are
 probably several people here who are better with Emacs than me. I look
 forward to getting your feedback and advice for improving.
 
-![blank terminal](screenshots/blank_terminal.png)
+![](screenshots/blank_terminal.png)
 
-![bash intro](screenshots/bash_intro.png)
+![](screenshots/bash_intro.png)
 
 
-![emacs tetris](screenshots/emacs_tetris.png)
+![](screenshots/emacs_tetris.png)
 
-![emacs daemon](screenshots/emacs_daemon.png)
+![](screenshots/emacs_daemon.png)
+
 
 
 All my configuration is in my [.emacs.d](https://github.com/ajschumacher/.emacs.d).
