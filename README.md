@@ -37,8 +37,8 @@ In addition to editing text, you probably need or want to send
 computers commands via text. It may be convenient or necessary in some
 cases to be productive in a pure text environment. So it is a
 desirable characteristic of a text editor that it be as capable in
-text mode as graphical mode. There are only two contenders: [Vim][]
-and Emacs.
+text mode as graphical mode. There are only two serious contenders:
+[Vim][] and Emacs.
 
 [Vim]: http://www.vim.org/
 
@@ -52,13 +52,17 @@ a minimum we need an editor that can be used in one.
 
 ![](screenshots/bash_intro.png)
 
-If you're competent in a shell like [bash][], you likely know some
+I use [bash][], and I have it customized a little bit, which makes it
+more useful. I'll come back to this.
+
+[bash]: http://www.gnu.org/software/bash/
+
+If you're competent in a shell like `bash`, you likely know some
 keyboard shortcuts. Defaults like <kbd>Ctrl</kbd> + <kbd>a</kbd>
 (`C-a`) to go to the beginning of a line are very useful. These are
 Emacs keybindings. They're the [readline][] defaults. They're
 ubiquitous.
 
-[bash]: http://www.gnu.org/software/bash/
 [readline]: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 
 Keyboard shortcuts that work in `bash`, Emacs, and many other places:
