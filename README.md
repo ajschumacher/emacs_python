@@ -60,7 +60,7 @@ All my configuration is in my [.emacs.d](https://github.com/ajschumacher/.emacs.
 
 Thanks:
 
-* [Rami Chowdhurry](https://twitter.com/necaris) (org-reveal)
+ * [Rami Chowdhurry](https://twitter.com/necaris) (org-reveal)
  * [Jenna Colazzi](https://twitter.com/jayaresee87) (M-g M-g)
  * [Harry Schwartz](http://harryrschwartz.com/) and Eric and all the speakers at the [New York Emacs Meetup](http://emacsnyc.org/)
  * [Sacha Chua](https://twitter.com/sachac) ([blog](http://sachachua.com/), [Emacs Chat](http://sachachua.com/blog/category/podcast/emacs-chat-podcast/))
