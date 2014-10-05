@@ -1,13 +1,18 @@
 # Emacs and Python
 
+A short talk for the [DC Python meetup group](http://www.meetup.com/DCPython/) on [October 7, 2014](http://www.meetup.com/DCPython/events/208969552/).
+
 ![](screenshots/emacs_startup_screen.png)
 
-I've been having a pretty good time with [Emacs][], and I'd like to
-tell you about it. Python is one of the things that Emacs is good for,
-and I'll get to that. But I'm going to try to do a pretty broad survey
-of why Emacs makes me happy.
+ Python is one of the things that [Emacs]() is good for, and I'll get
+to that.
+
+This is a screen you see when you start up Emacs. There's a tutorial,
+a manual - it's all very user-friendly.
 
 [Emacs]: http://www.gnu.org/software/emacs/
+
+<kbd>M</kbd>+<kbd>x</kbd> tetris
 
 I've been using Emacs for around 20 years, so I'm still a newbie.
 That's partially a joke, but it's also true that I've only started to
