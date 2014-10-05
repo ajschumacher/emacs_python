@@ -127,6 +127,13 @@ as it does throughout Emacs.
 
 
     eg &
+    got emacs
+
+![](screenshots/emacs_shell_gui.png)
+
+I can start a graphical Emacs from here in the shell inside console
+Emacs, and you can see that now both clients are connected to the same
+Emacs daemon.
 
 
 Base Emacs includes a lot, and you can manage in base Emacs. you
