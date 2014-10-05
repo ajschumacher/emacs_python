@@ -44,7 +44,7 @@ We can make a quick commit with this change very quickly.
 
 Down at the bottom, it looks like [markdown](http://daringfireball.net/projects/markdown/) in [reStructuredText](http://docutils.sourceforge.net/rst.html). We need to fix the back-ticks and the numbered lists.
 
-In reStructuredText, you need double back-ticks. Select the region, query-replace with `M-%`, enter "`" and "``", and if feeling confident, use "!" to replace all.
+In reStructuredText, you need double back-ticks. Select the region, query-replace with `M-%`, enter "\`" and "\`\`", and if feeling confident, use "!" to replace all.
 
 ![](screenshots/backticks_fixed.png)
 
