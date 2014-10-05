@@ -54,6 +54,8 @@ The numbered lists aren't hard to fix in this case, but let's show some more fea
 
 This isn't really done, so let's go back to the first "1." and select it, then invoke a `multiple-cursors` command to select them all and clean up. Presto!
 
+![](screenshots/nice_rst.png)
+
 Commit, push, pull request, new branch (from master) for a `first_test`.
 
 All my configuration is in my [.emacs.d](https://github.com/ajschumacher/.emacs.d).
