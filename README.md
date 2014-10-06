@@ -276,6 +276,50 @@ that are semantically the same and edit them at the same time. Neat!
 It's very convenient to run tests.
 
 
+    C-c C-z
+    np <kbd>shift</kbd> + <kbd>tab</kbd>
+    np.random. <kbd>tab</kbd>
+
+![](screenshots/elpy_interactive.png)
+
+It's easy to run interactive python. I'll show snippets here too. And
+you get auto-completion. Nice.
+
+
+    C-x o
+    M-<
+    C-o C-o C-o
+    print 'hello'
+    C-<space> C-a
+    C-c C-c
+
+![](screenshots/send_to_interactive.png)
+
+It's easy to send code from the editor to the REPL. It was a little
+weird to me at first that it didn't echo in the REPL, but it's
+generally fine this way. If you want you can copy and paste
+explicitly, or make a macro to do the same.
+
+
+    import os
+    os
+    C-c C-d
+    .
+
+![](screenshots/dropdown.png)
+
+In the editor, you can get docstring help with `C-c C-d`, and there's
+also the popular drop-down method of showing available things.
+
+
+    fork
+    C-c C-d
+
+![](screenshots/docs.png)
+
+And of course help on functions themselves.
+
+
 All my configuration is in my [.emacs.d][].
 
 [.emacs.d]: https://github.com/ajschumacher/.emacs.d
