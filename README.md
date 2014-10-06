@@ -161,13 +161,14 @@ assembly required.
 
 Emacs gets so much better with customized settings that there are
 several whole projects which are just collections of Emacs
-configuration. [Prelude][] is probably the biggest. I tried Prelude
-and eventually got tired of turning things off more than I was turning
-them on, but things like Prelude are great for finding out about
-functionality, and could be a great way to get into Emacs. There are
-also [blogs][] that post about Emacs, and of course everybody has their
-configuration files on github too.
+configuration. [Prelude][] is probably the biggest; [Graphene][] is
+another one. I tried Prelude and eventually got tired of turning
+things off more than I was turning them on, but things like Prelude
+are great for finding out about functionality, and could be a great
+way to get into Emacs. There are also [blogs][] that post about Emacs,
+and of course everybody has their configuration files on github too.
 
+[Graphene]: https://github.com/rdallasgray/graphene
 [blogs]: http://planet.emacsen.org/
 
 Let's take a look at editing with Emacs, using [a DC Python project][]
@@ -358,5 +359,14 @@ Thanks to local Emacs users [Rami Chowdhurry](https://twitter.com/necaris) and [
  * [Magnar Sveen](https://twitter.com/magnars) ([emacs rocks](http://emacsrocks.com/), [what the .emacs.d!?](http://whattheemacsd.com/))
  * [Mickey Petersen](https://twitter.com/mickeynp) ([Mastering Emacs](http://www.masteringemacs.org/)
  * [Bozhidar Batsov](https://twitter.com/bbatsov) ([Prelude][], [Emacs Redux](http://emacsredux.com/))
+ * Steve Yegge's old [Effective Emacs](https://sites.google.com/site/steveyegge2/effective-emacs) is still worth a read.
 
 [Prelude]: https://github.com/bbatsov/prelude
+
+
+For even more completeness, here are other ways of doing Python in Emacs:
+
+ * [Oh My Emacs Python]: http://www.xiaohanyu.me/oh-my-emacs/modules/ome-python.html
+ * [emacs-for-python](https://github.com/gabrielelanaro/emacs-for-python)
+ * [rope](http://rope.sourceforge.net/) (an alternative to `jedi`), used in in `elpy` or [ropemacs](http://rope.sourceforge.net/ropemacs.html) / [Pymacs](https://github.com/pinard/Pymacs)
+ * [Python Programming in Emacs](http://www.emacswiki.org/PythonProgrammingInEmacs) on [EmacsWiki](http://www.emacswiki.org/)
