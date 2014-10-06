@@ -22,3 +22,7 @@
 ; graphical emacs launched from a shell in emacs.
 
 (display-startup-screen)
+
+; In a web browser:
+; https://github.com/DCPython/dcpython-django
+; https://github.com/ajschumacher/dcpython-django
