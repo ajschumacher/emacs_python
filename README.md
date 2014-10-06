@@ -235,12 +235,38 @@ clean up. Presto!
 
 Commit, push, pull request!
 
+Now to Python. I use [elpy][] ([on github][]) with [flycheck][] and
+[jedi][]. Also [IPython][]. And [YASnippet][]. Etc. I'll demo some
+things.
 
-add this...
-http://elpy.readthedocs.org/en/latest/ide.html
+[elpy]: http://elpy.readthedocs.org/
+[on github]: https://github.com/jorgenschaefer/elpy/
+[flycheck]: https://github.com/flycheck/flycheck
+[jedi]: https://github.com/davidhalter/jedi
+[IPython]: http://ipython.org/
+[YASnippet]: https://github.com/capitaomorte/yasnippet
 
-and this...
-https://github.com/flycheck/flycheck
+
+    C-x C-f tset/tset.py
+
+![](screenshots/flychecking.png)
+
+Using a toy Python [project][] of mine, we can see how `flycheck` will
+tell you when you're violating [PEP 8][]. If I add in `import os`
+without using it, that'll get shown too. And it catches syntax errors
+like `x=` as well.
+
+[project]: https://github.com/ajschumacher/tset
+[PEP 8]: http://legacy.python.org/dev/peps/pep-0008/
+
+
+    (point after "at")
+    C-c C-e
+
+![](screenshots/edit_multiple.png)
+
+One fun feature of `elpy` is that it can use `jedi` to find symbols
+that are semantically the same and edit them at the same time. Neat!
 
 
 All my configuration is in my [.emacs.d][].
