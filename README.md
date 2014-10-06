@@ -194,9 +194,11 @@ problems: tabs and trailing whitespace.
 
 ![](screenshots/make_branch.png)
 
-So we make a branch to do some work on. Then we can
-`mark-whole-buffer` and `untabify`. Tabs are changed to spaces. Then
-`delete-trailing-whitespace`. Good.
+So we make a branch to do some work on. (The git-in-Emacs interface is
+[magit][].) Then we can `mark-whole-buffer` and `untabify`. Tabs are
+changed to spaces. Then `delete-trailing-whitespace`. Good.
+
+[magit]: http://magit.github.io/
 
 
 ![](screenshots/whitespace_fixed.png)
