@@ -55,7 +55,7 @@ a minimum we need an editor that can be used over [ssh][].
 ![](screenshots/bash_intro.png)
 
 I use [bash][], and I have it customized a little bit, which makes it
-more useful. I'll come back to customization.
+nicer. I'll come back to customization.
 
 [bash]: http://www.gnu.org/software/bash/
 
@@ -105,9 +105,9 @@ extensibility. Part of that is in selecting which parts you use.
 ![](screenshots/emacs_daemon.png)
 
 Emacs can run client-server. I use this way of running Emacs to get a
-lot of the same benefits that you get with [screen][] or [tmux][]. I
-don't lose anything if a network connection dies, and it's also just
-faster to start up the Emacs client.
+lot of the benefits that you get with [screen][] or [tmux][]. I don't
+lose anything if a network connection dies, and it's also just faster
+to start up the Emacs client.
 
 [screen]: http://www.gnu.org/software/screen/
 [tmux]: http://tmux.sourceforge.net/
@@ -122,8 +122,8 @@ faster to start up the Emacs client.
 You can also run a shell inside Emacs, and it works much the same as
 outside. A contrast with `tmux` is that you don't have to switch modes
 to access the scrollback. For example, in an Emacs shell, `M-r` will
-search the command history. `C-r` will search back through the buffer,
-as it does throughout Emacs.
+search the command history, and `C-r` will search back through the
+buffer (as it does throughout Emacs).
 
 
     eg &
@@ -136,8 +136,8 @@ I can start a graphical Emacs from here in the shell inside console
 Emacs, and you can see that now both clients are connected to the same
 Emacs daemon.
 
-Notice how similar the interface is whether at the console or in the
-GUI window.
+Notice how similar the interface is whether at a console or in a GUI
+window.
 
 
     C-x C-f hello.el
@@ -149,7 +149,7 @@ GUI window.
 Emacs achieves its extensibility by essentially being a [Lisp][]
 interpreter. (It's Emacs Lisp.) I'm just showing a tiny cosmetic
 interface tweak here, but all the packages and fun features I use work
-because Emacs *is* a programmable environment.
+because Emacs is a programmable environment.
 
 [Lisp]: http://en.wikipedia.org/wiki/Emacs_Lisp
 
@@ -160,12 +160,15 @@ sort of editor you want. The disadvantage is that there's some
 assembly required.
 
 Emacs gets so much better with customized settings that there are
-several whole distributions of settings. [Prelude][] is probably the
-biggest. I tried it but got tired of turning things off more than I
-was turning them on. But things like Prelude can be good for finding
-out about features that are out there. There are also blogs that post
-about Emacs, and of course everybody has their configuration files on
-github too.
+several whole projects which are just collections of Emacs
+configuration. [Prelude][] is probably the biggest. I tried Prelude
+and eventually got tired of turning things off more than I was turning
+them on, but things like Prelude are great for finding out about
+functionality, and could be a great way to get into Emacs. There are
+also [blogs][] that post about Emacs, and of course everybody has their
+configuration files on github too.
+
+[blogs]: http://planet.emacsen.org/
 
 Let's take a look at editing with Emacs, using [a DC Python project][]
 as an example. We notice that there are some problems at the end of
@@ -173,6 +176,8 @@ the README, so maybe we can fix it up a little.
 
 [a DC Python project]: https://github.com/DCPython/dcpython-django/blob/77af0754866780b2eb013f7fb08c13918bd5266c/README.rst
 
+
+    git clone git@github.com:ajschumacher/dcpython-django.git django
 
 ![](screenshots/clone_django.png)
 
@@ -252,9 +257,9 @@ things.
 ![](screenshots/flychecking.png)
 
 Using a toy Python [project][] of mine, we can see how `flycheck` will
-tell you when you're violating [PEP 8][]. If I add in `import os`
-without using it, that'll get shown too. And it catches syntax errors
-like `x=` as well.
+tell you when you're violating [PEP 8][] ("E302 expected 2 blank
+lines, found 1", etc.). If I add in `import os` without using it,
+that'll get shown too. And it catches syntax errors like `x=` as well.
 
 [project]: https://github.com/ajschumacher/tset
 [PEP 8]: http://legacy.python.org/dev/peps/pep-0008/
@@ -277,8 +282,8 @@ It's very convenient to run tests.
 
 
     C-c C-z
-    np <kbd>shift</kbd> + <kbd>tab</kbd>
-    np.random. <kbd>tab</kbd>
+    np <shift>-<tab>
+    np.random. <tab>
 
 ![](screenshots/elpy_interactive.png)
 
