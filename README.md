@@ -269,6 +269,13 @@ One fun feature of `elpy` is that it can use `jedi` to find symbols
 that are semantically the same and edit them at the same time. Neat!
 
 
+    C-c C-t
+
+![](screenshots/elpy_tests.png)
+
+It's very convenient to run tests.
+
+
 All my configuration is in my [.emacs.d][].
 
 [.emacs.d]: https://github.com/ajschumacher/.emacs.d
