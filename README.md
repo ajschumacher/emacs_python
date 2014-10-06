@@ -346,7 +346,12 @@ Description of this.
 
 ![](screenshots/nyan_mode.png)
 
-Nyan-Cat. Thank you.
+Nyan-Cat.
+
+
+![](screenshots/emacs_tweet.png)
+
+Tweet! Thank you.
 
 
 All my configuration is in my [.emacs.d][].
