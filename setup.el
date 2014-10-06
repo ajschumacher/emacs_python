@@ -36,8 +36,7 @@
 
 
 Tweet text:
-https://github.com/ajschumacher/emacs_python/blob/master/README.md
-@DCPython
+#Emacs and #Python at @DCPython! Readable presentation: https://github.com/ajschumacher/emacs_python/blob/master/README.md Featuring 26 screenshots, Tetris, Nyan Cat, and this tweet!
 
 
 Maybe include this somehow?
