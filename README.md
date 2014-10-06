@@ -230,6 +230,9 @@ Commit, push, pull request!
 add this...
 http://elpy.readthedocs.org/en/latest/ide.html
 
+and this...
+https://github.com/flycheck/flycheck
+
 
 All my configuration is in my [.emacs.d][].
 
