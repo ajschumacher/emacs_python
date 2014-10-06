@@ -320,6 +320,27 @@ also the popular drop-down method of showing available things.
 And of course help on functions themselves.
 
 
+    C-x 1
+    C-x C-j
+    (navigate to scikit-learn/sklearn/tests/test_naive_bayes.py)
+    M-1
+    M-g M-g 332 (point on 'MultinomialNB')
+    M-. (until 'object')
+    M-* (back)
+
+![](screenshots/sklearn.png)
+
+Description of this.
+
+
+    nyan-mode
+    nyan-start-animation
+
+![](screenshots/nyan_mode.png)
+
+Nyan-Cat. Thank you.
+
+
 All my configuration is in my [.emacs.d][].
 
 [.emacs.d]: https://github.com/ajschumacher/.emacs.d
