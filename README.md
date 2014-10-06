@@ -351,11 +351,12 @@ All my configuration is in my [.emacs.d][].
 [.emacs.d]: https://github.com/ajschumacher/.emacs.d
 
 
-Thanks to local Emacs users [Rami Chowdhurry](https://twitter.com/necaris) and [Jenna Colazzi](https://twitter.com/jayaresee87), and to the broader Emacs community who are and make excellent resources:
+Thanks to local Emacs users [Rami Chowdhurry](https://twitter.com/necaris) and [Jenna Colazzi](https://twitter.com/jayaresee87), and to the broader Emacs community who are super friendly and produce excellent resources:
 
  * [Harry Schwartz](http://harryrschwartz.com/) and Eric and all the speakers at the [New York Emacs Meetup](http://emacsnyc.org/)
  * [Sacha Chua](https://twitter.com/sachac) ([blog](http://sachachua.com/), [Emacs Chat](http://sachachua.com/blog/category/podcast/emacs-chat-podcast/))
  * [Magnar Sveen](https://twitter.com/magnars) ([emacs rocks](http://emacsrocks.com/), [what the .emacs.d!?](http://whattheemacsd.com/))
+ * [Mickey Petersen](https://twitter.com/mickeynp) ([Mastering Emacs](http://www.masteringemacs.org/)
  * [Bozhidar Batsov](https://twitter.com/bbatsov) ([Prelude][], [Emacs Redux](http://emacsredux.com/))
 
 [Prelude]: https://github.com/bbatsov/prelude
