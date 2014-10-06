@@ -33,3 +33,14 @@
 ; In a web browser:
 ; https://github.com/DCPython/dcpython-django
 ; https://github.com/ajschumacher/dcpython-django
+
+
+Tweet text:
+https://github.com/ajschumacher/emacs_python/blob/master/README.md
+@DCPython
+
+
+Maybe include this somehow?
+
+"Your father's lightsaber. This is the weapon of a Jedi Knight. Not as clumsy or random as a blaster. A more elegant weapon for a more civilized age."
+— Obi Wan Kenobi, Star Wars: A New Hope
