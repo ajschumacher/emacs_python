@@ -154,9 +154,18 @@ because Emacs *is* a programmable environment.
 [Lisp]: http://en.wikipedia.org/wiki/Emacs_Lisp
 
 A related point is that base Emacs includes a lot, and you can manage
-in base Emacs, but you probably won't want to use stock Emacs. You can
-think of Emacs as a kit for making an editor. The advantage is that
-you can make any sort of editor you want.
+in base Emacs, but you probably won't want to. You can think of Emacs
+as a kit for making an editor. The advantage is that you can make any
+sort of editor you want. The disadvantage is that there's some
+assembly required.
+
+Emacs gets so much better with customized settings that there are
+several whole distributions of settings. [Prelude][] is probably the
+biggest. I tried it but got tired of turning things off more than I
+was turning them on. But things like Prelude can be good for finding
+out about features that are out there. There are also blogs that post
+about Emacs, and of course everybody has their configuration files on
+github too.
 
 Let's take a look at editing with Emacs, using [a DC Python project][]
 as an example. We notice that there are some problems at the end of
@@ -244,4 +253,6 @@ Thanks to local Emacs users [Rami Chowdhurry](https://twitter.com/necaris) and [
  * [Harry Schwartz](http://harryrschwartz.com/) and Eric and all the speakers at the [New York Emacs Meetup](http://emacsnyc.org/)
  * [Sacha Chua](https://twitter.com/sachac) ([blog](http://sachachua.com/), [Emacs Chat](http://sachachua.com/blog/category/podcast/emacs-chat-podcast/))
  * [Magnar Sveen](https://twitter.com/magnars) ([emacs rocks](http://emacsrocks.com/), [what the .emacs.d!?](http://whattheemacsd.com/))
- * [Bozhidar Batsov](https://twitter.com/bbatsov) ([Prelude](https://github.com/bbatsov/prelude), [Emacs Redux](http://emacsredux.com/))
+ * [Bozhidar Batsov](https://twitter.com/bbatsov) ([Prelude][], [Emacs Redux](http://emacsredux.com/))
+
+[Prelude]: https://github.com/bbatsov/prelude
