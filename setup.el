@@ -1,3 +1,10 @@
+; To set up for the final tweet:
+; M-x twittering-mode
+; u to open edit thing
+; Kill the tweet-listing buffer
+; Compose tweet
+; Ready to send with C-c C-c
+
 ; My current email setup is just for sending email, and it prompts for
 ; a password at least once per session. So send a throw-away email
 ; before the demo starts, to hopefully save having to type it in live.
