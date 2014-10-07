@@ -25,6 +25,12 @@ https://twitter.com/planarrowspace
 Full screen, no tabs showing.
 
 
+Shell setup:
+
+Enter this once so that it'll be in the command history:
+`grep -o '\w*grep' ~/.bashrc | sort | uniq -c`
+
+
 Process 1:
 
 `e`
