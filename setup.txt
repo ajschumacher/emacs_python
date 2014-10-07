@@ -3,6 +3,7 @@ It's a little Inception:
 
 Repo setup:
 
+rm -rf django
 git clone git@github.com:ajschumacher/dcpython-django.git django-safe
 (at 77af075)
 
