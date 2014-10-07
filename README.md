@@ -59,11 +59,10 @@ nicer. I'll come back to customization.
 
 [bash]: http://www.gnu.org/software/bash/
 
-If you're competent in a shell like `bash`, you likely know some
-keyboard shortcuts. Defaults like <kbd>Ctrl</kbd> + <kbd>a</kbd>
-(`C-a`) to go to the beginning of a line are very useful. These are
-Emacs keybindings. They're the [readline][] defaults. They're
-ubiquitous.
+If you're competent in a shell like `bash`, you know some keyboard
+shortcuts. Defaults like <kbd>Ctrl</kbd> + <kbd>a</kbd> (`C-a`) to go
+to the beginning of a line are very useful. These are Emacs
+keybindings. They're the [readline][] defaults. They're ubiquitous.
 
 [readline]: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 
