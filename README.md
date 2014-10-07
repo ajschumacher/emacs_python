@@ -338,7 +338,16 @@ And of course help on functions themselves.
 
 ![](screenshots/sklearn.png)
 
-Description of this.
+To demonstrate navigating some more serious hierarchies, I've got a
+clone of the [scikit-learn][] source. I'll go to the Naive Bayes tests
+using `dired`, a standard mode. There are a lot of lines here. I have
+a custom binding to show and hide line numbers. Let's go to line 332,
+where `MultinomialNB` is getting tested. If I put point on that
+symbol, `elpy` let's me use `M-.` to jump to the definition. I can go
+several definitions up, and then use `M-*` to jump back to where I
+started. This is pretty neat.
+
+[scikit-learn]: https://github.com/scikit-learn/scikit-learn
 
 
     nyan-mode
@@ -346,20 +355,44 @@ Description of this.
 
 ![](screenshots/nyan_mode.png)
 
-Nyan-Cat.
+I started with Tetris, and I want to finish with somethign fun too. If
+you want to, you can install and use `nyan-mode`. Totally up to you.
 
+
+    C-x b *twittering-edit*
 
 ![](screenshots/emacs_tweet.png)
 
-Tweet! Thank you.
+And here's that tweet I promised earlier.
+
+Thank you!
 
 
-All my configuration is in my [.emacs.d][].
+---
+
+
+All my configuration is in my [.emacs.d][]. It's subject to change.
+This demo is as of `7716de4`, with some keystrokes shown above as they
+usually are rather than how I have them bound.
 
 [.emacs.d]: https://github.com/ajschumacher/.emacs.d
 
 
-Thanks to local Emacs users [Rami Chowdhurry](https://twitter.com/necaris) and [Jenna Colazzi](https://twitter.com/jayaresee87), and to the broader Emacs community who are super friendly and produce excellent resources:
+---
+
+
+For even more completeness, here are other ways of doing Python in Emacs:
+
+ * [Python Programming in Emacs](http://www.emacswiki.org/PythonProgrammingInEmacs) on [EmacsWiki](http://www.emacswiki.org/)
+ * [emacs-for-python](https://github.com/gabrielelanaro/emacs-for-python)
+ * [rope](http://rope.sourceforge.net/) (an alternative to `jedi`), used in in `elpy` or [ropemacs](http://rope.sourceforge.net/ropemacs.html) / [Pymacs](https://github.com/pinard/Pymacs)
+ * [Oh My Emacs Python](http://www.xiaohanyu.me/oh-my-emacs/modules/ome-python.html)
+
+
+---
+
+
+Thanks to local Emacs users [Jenna Colazzi](https://twitter.com/jayaresee87) and [Rami Chowdhurry](https://twitter.com/necaris), and to the broader Emacs community who are super friendly and produce excellent resources:
 
  * [Harry Schwartz](http://harryrschwartz.com/) and Eric and all the speakers at the [New York Emacs Meetup](http://emacsnyc.org/)
  * [Sacha Chua](https://twitter.com/sachac) ([blog](http://sachachua.com/), [Emacs Chat](http://sachachua.com/blog/category/podcast/emacs-chat-podcast/))
@@ -369,11 +402,3 @@ Thanks to local Emacs users [Rami Chowdhurry](https://twitter.com/necaris) and [
  * Steve Yegge's old [Effective Emacs](https://sites.google.com/site/steveyegge2/effective-emacs) is still worth a read.
 
 [Prelude]: https://github.com/bbatsov/prelude
-
-
-For even more completeness, here are other ways of doing Python in Emacs:
-
- * [Oh My Emacs Python]: http://www.xiaohanyu.me/oh-my-emacs/modules/ome-python.html
- * [emacs-for-python](https://github.com/gabrielelanaro/emacs-for-python)
- * [rope](http://rope.sourceforge.net/) (an alternative to `jedi`), used in in `elpy` or [ropemacs](http://rope.sourceforge.net/ropemacs.html) / [Pymacs](https://github.com/pinard/Pymacs)
- * [Python Programming in Emacs](http://www.emacswiki.org/PythonProgrammingInEmacs) on [EmacsWiki](http://www.emacswiki.org/)
