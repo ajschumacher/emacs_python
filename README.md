@@ -1,30 +1,27 @@
 # Emacs and Python
 
 
-A short talk for the [DC Python meetup group][] on [October 7, 2014][].
+A short talk at the [DC Python meetup group][] on [October 7, 2014][],
+introducing [Emacs][] through demonstration of fun and useful
+features.
 
 [DC Python meetup group]: http://www.meetup.com/DCPython/
 [October 7, 2014]: http://www.meetup.com/DCPython/events/208969552/
+[Emacs]: http://www.gnu.org/software/emacs/
 
 
 ![](screenshots/emacs_startup_screen.png)
 
-Python is one of the things that [Emacs][] is good for, and I'll get
-to that.
-
-This is a screen you see when you start up Emacs. There's a tutorial,
-a manual... There's a lot there by default, and it's all very
-user-friendly.
-
-[Emacs]: http://www.gnu.org/software/emacs/
+This is a screen you see when you start up Emacs. There's a tutorial
+and a manual and it's all very user-friendly.
 
 
     M-x tetris
 
 ![](screenshots/emacs_tetris.png)
 
-Tetris is included in base Emacs, for example. But Emacs is also a
-text editor. Editing text is important.
+Tetris is included in base Emacs. But Emacs is also a text editor.
+Editing text is important.
 
 So why Emacs?
 
@@ -34,11 +31,10 @@ So why Emacs?
 ![](screenshots/blank_terminal.png)
 
 In addition to editing text, you probably need or want to send
-computers commands via text. It may be convenient or necessary in some
-cases to be productive in a pure text environment. So it is a
-desirable characteristic of a text editor that it be as capable in
-text mode as graphical mode. There are only two serious contenders:
-[Vim][] and Emacs.
+computers commands via text. It may be convenient or necessary to be
+productive in a pure text environment. So it is a desirable
+characteristic of a text editor that it be as capable in text mode as
+graphical mode. There are two serious contenders: [Vim][] and Emacs.
 
 [Vim]: http://www.vim.org/
 
@@ -55,7 +51,7 @@ a minimum we need an editor that can be used over [ssh][].
 ![](screenshots/bash_intro.png)
 
 I use [bash][], and I have it customized a little bit, which makes it
-nicer. I'll come back to customization.
+nicer.
 
 [bash]: http://www.gnu.org/software/bash/
 
@@ -93,9 +89,6 @@ keybindings, or should, and they can be used in many places.
 If you want, the many places you use Emacs can be all inside Emacs.
 Here I'm just finishing an email.
 
-Probably the biggest attraction of Emacs is its customizability, or
-extensibility. Part of that is in selecting which parts you use.
-
 
     C-c C-c
     C-x C-c
@@ -105,8 +98,8 @@ extensibility. Part of that is in selecting which parts you use.
 
 Emacs can run client-server. I use this way of running Emacs to get a
 lot of the benefits that you get with [screen][] or [tmux][]. I don't
-lose anything if a network connection dies, and it's also just faster
-to start up the Emacs client.
+lose anything if a network connection dies, for example. It's also
+faster to start up the Emacs client.
 
 [screen]: http://www.gnu.org/software/screen/
 [tmux]: http://tmux.sourceforge.net/
@@ -354,7 +347,7 @@ started. This is pretty neat.
 
 ![](screenshots/nyan_mode.png)
 
-I started with Tetris, and I want to finish with somethign fun too. If
+I started with Tetris, and I want to finish with something fun too. If
 you want to, you can install and use `nyan-mode`. Totally up to you.
 
 
