@@ -1,45 +1,107 @@
-; To set up for the final tweet:
-; M-x twittering-mode
-; u to open edit thing
-; Kill the tweet-listing buffer
-; Compose tweet
-; Ready to send with C-c C-c
+It's a little Inception:
 
-; My current email setup is just for sending email, and it prompts for
-; a password at least once per session. So send a throw-away email
-; before the demo starts, to hopefully save having to type it in live.
-; Then, set up to send this email:
+Browser setup:
 
-; Eddie Welker <eddie.welker@gmail.com>
-; thanks!
-; Hi Eddie!
-;
-; Thanks for having me present at DC Python! It's always a great event,
-; and a great audience - thanks for organizing it. I just hope I don't
-; mess up too much, trying to do everything live!
-;
-; I've got all the materials from the talk online already, and I'll tweet
-; out a link at the end of the presentation.
-;
-; Thanks again! Best,
+Three tabs:
+https://github.com/DCPython/dcpython-django
+https://github.com/ajschumacher/dcpython-django
+https://twitter.com/planarrowspace
+
+Full screen, no tabs showing.
 
 
-; Check the right zoom level for the graphical interface, to avoid
-; fiddling around too much when switching from console emacs to
-; graphical emacs launched from a shell in emacs.
+Process 1:
 
-(display-startup-screen)
+`e`
+`M-x twittering-mode`
+`u` to open compose tweet
+Kill the tweet-listing buffer.
 
-; In a web browser:
-; https://github.com/DCPython/dcpython-django
-; https://github.com/ajschumacher/dcpython-django
+Put in kill ring:
 
-
-Tweet text:
-#Emacs and #Python at @DCPython! Readable presentation: https://github.com/ajschumacher/emacs_python/blob/master/README.md Featuring 26 screenshots, Tetris, Nyan Cat, and this tweet!
-
-
-Maybe include this somehow?
-
+"""
 "Your father's lightsaber. This is the weapon of a Jedi Knight. Not as clumsy or random as a blaster. A more elegant weapon for a more civilized age."
-— Obi Wan Kenobi, Star Wars: A New Hope
+- Obi Wan Kenobi, Star Wars: A New Hope
+"""
+
+"""
+#Emacs and #Python at @DCPython! Readable presentation: https://github.com/ajschumacher/emacs_python/blob/master/README.md Featuring 26 screenshots, Tetris, Nyan Cat, and this tweet!
+"""
+
+In scratch buffer, put 78 characters across the screen.
+
+Now `C-x C-z` leaves one Emacs daemon and no clients.
+
+
+Process 2:
+
+Start a separate Emacs process with `emacs`.
+
+My current email setup is just for sending email, and it prompts for a
+password at least once per session. So send a throw-away email (C-x m)
+before the demo starts, to hopefully save having to type it a password
+live.
+
+Then, set up to send this email:
+
+To:
+"""
+Eddie Welker <eddie.welker@gmail.com>
+"""
+
+Subject:
+"""
+thanks!
+"""
+
+Body:
+"""
+Hi Eddie!
+
+Thanks for having me present at DC Python! It's always a great event, and a great audience - thanks for organizing it. I just hope I don't mess up too much, trying to do everything live!
+
+I've got all the materials from the talk online already, and I'll tweet out a link at the end of the presentation.
+
+Thanks again! Best,
+"""
+
+Background with `C-z`.
+
+
+Process 3:
+
+Start a third Emacs with `emacs`. It should be at the startup screen.
+If there's any problem, get the startup screen with
+`(display-startup-screen)`.
+
+Background with `C-z`.
+
+
+Process 4:
+
+Open a graphical Emacs client with `eg`.
+
+Check the right zoom level and number of columns and rows for the
+graphical interface when going to full screen, to avoid fiddling
+around too much when switching from console Emacs to graphical Emacs
+launched from a shell in Emacs.
+
+Remember settings, close graphical interface.
+
+
+Process 5:
+
+Open a terminal Emacs client with `emacs`.
+
+Full-screen the terminal, zoom to a good size.
+
+Close with `C-x C-c`.
+
+
+Now there are three Emacs processes. One server, and two standalones.
+
+
+Bring up the third with `fg.
+
+
+Present.
