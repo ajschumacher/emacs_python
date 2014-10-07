@@ -1,3 +1,6 @@
 django/
+django-safe/
 tset/
+tset-safe/
 scikit-learn/
+scikit-learn-safe/

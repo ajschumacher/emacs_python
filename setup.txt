@@ -1,5 +1,20 @@
 It's a little Inception:
 
+
+Repo setup:
+
+git clone git@github.com:ajschumacher/dcpython-django.git django-safe
+(at 77af075)
+
+git clone git@github.com:ajschumacher/tset.git
+(at 710628d)
+cp -r tset tset-safe
+
+git clone https://github.com/scikit-learn/scikit-learn.git
+(at e579171)
+cp -r scikit-learn scikit-learn-safe
+
+
 Browser setup:
 
 Three tabs:
