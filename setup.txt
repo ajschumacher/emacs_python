@@ -52,7 +52,7 @@ Put in kill ring:
 
 In scratch buffer, put 78 characters across the screen.
 
-Now `C-x C-z` leaves one Emacs daemon and no clients.
+Now `C-x C-c` leaves one Emacs daemon and no clients.
 
 
 Process 2:
