@@ -3,12 +3,14 @@
 
 A short talk at the [DC Python meetup group][] on [October 7, 2014][],
 introducing [Emacs][] through demonstration of fun and useful
-features.
+features. Thanks to [Eddie Welker] for hosting the event and putting
+up [video]!
 
 [DC Python meetup group]: http://www.meetup.com/DCPython/
 [October 7, 2014]: http://www.meetup.com/DCPython/events/208969552/
 [Emacs]: http://www.gnu.org/software/emacs/
-
+[Eddie Welker]: https://twitter.com/edwelker
+[video]: https://www.youtube.com/watch?v=eH-epEqLVAs
 
 ![](screenshots/emacs_startup_screen.png)
 
