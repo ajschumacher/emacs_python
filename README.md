@@ -359,7 +359,9 @@ you want to, you can install and use `nyan-mode`. Totally up to you.
 
 ![](screenshots/emacs_tweet.png)
 
-And here's that tweet I promised earlier.
+And here's that [tweet] I promised earlier.
+
+[tweet]: https://twitter.com/planarrowspace/status/519632550902247424
 
 Thank you!
 
