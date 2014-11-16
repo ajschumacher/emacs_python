@@ -3,10 +3,11 @@
 
 ### [Watch this on YouTube!](https://www.youtube.com/watch?v=eH-epEqLVAs)
 
+
 A short talk at the [DC Python meetup group][] on [October 7, 2014][],
 introducing [Emacs][] through demonstration of fun and useful
-features. Thanks to [Eddie Welker] for hosting the event and putting
-up [video]!
+features. Thanks to [Eddie Welker][] for hosting the event and putting
+up [video][]!
 
 [DC Python meetup group]: http://www.meetup.com/DCPython/
 [October 7, 2014]: http://www.meetup.com/DCPython/events/208969552/
